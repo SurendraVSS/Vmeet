@@ -1,5 +1,6 @@
 const APP_ID = "f34e0126cc534ec5af7629916748cda0"
 
+
 let uid = sessionStorage.getItem('uid')
 if(!uid){
     uid = String(Math.floor(Math.random() * 10000))
